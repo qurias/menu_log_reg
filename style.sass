@@ -45,15 +45,17 @@ body
   box-shadow: 2px 1px 10px black
   &__info
     display: none
-    align-items: center
-    margin-top: 100px
+    margin-top: 60px
     font-size: 20px
     border-bottom-left-radius: 10px
     border-top-left-radius: 10px
-    li
+    margin-top: 100px
+    flex-direction: column
+    list-style-type: none
+    ul
       list-style-type: none
-      ul
-        margin: 10px 0px 10px 10px
+      li
+        margin-top: 10px
         a
           margin: 0px 20px 0px 0px
       .button
@@ -66,7 +68,6 @@ body
     input
       float: right
       margin-left: 10px
-      padding: 5px 0px
       background-color: #683434
       font-size: 15px
       outline: none
@@ -102,10 +103,12 @@ body
     border-bottom-left-radius: 10px
     border-top-left-radius: 10px
     margin-top: 210px
-    li
+    flex-direction: column
+    list-style-type: none
+    ul
       list-style-type: none
-      ul
-        margin: 10px 0px 10px 10px
+      li
+        margin-top: 10px
         a
           margin: 0px 20px 0px 0px
       .button
@@ -117,7 +120,7 @@ body
           outline: none
           width: 400px
           height: 50px
-          margin-top: 5px
+          margin-top: 10px
           background-color: #703939
         button:hover
           background-color: #552b2b
