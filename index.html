@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="style.min.css">
+  <title>Document</title>
 </head>
+
 <body>
   <header class="header">
     <div class="header__logreg">
-      <a class='header__logreg__login'>Login</a>|<a class='header__logreg__register'>Register</a>
+      <a class="header__login">Login</a>
+      <span>|</span>
+      <a class="header__register">Register</a>
     </div>
-    <div class="block__logreg__login">
-      <div class="block__logreg__login__info">
-        <li>
-          <ul><a>Login</a><input type="text"></ul>
-          <ul><a>Password</a><input type="password"></ul>
-          <div class="button">
-            <button>To come in</button>
-          </div>
-        </li>
+    <div class="block-login">
+      <div class="block-login__info">
+        <ul>
+          <li><a>Login</a><input type="text"></li>
+          <li><a>Password</a><input type="password"></li>
+          <li><button class="button">To come in</button></li>
+        </ul>
       </div>
     </div>
-    <div class="block__logreg__register">
-      <div class="block__logreg__register__info">
-        <li>
-          <ul><a>Username</a><input type="text"></ul>
-          <ul><a>Name</a><input type="text"></ul>
-          <ul><a>Email</a><input type="text"></ul>
-          <ul><a>Password</a><input type="password"></ul>
-          <ul><a>Password one more</a><input type="password"></ul>
-          <div class="button">
-            <button>Register</button>
-          </div>
-        </li>
+    <div class="block-register">
+      <div class="block-register__info">
+        <ul>
+          <li><a>Username</a><input type="text"></li>
+          <li><a>Name</a><input type="text"></li>
+          <li><a>Email</a><input type="text"></li>
+          <li><a>Password</a><input type="password"></li>
+          <li><a>Password one more</a><input type="password"></li>
+          <li><button class="button">Register</button></li>
+        </ul>
       </div>
     </div>
   </header>
   <script src='script.js'></script>
 </body>
+
 </html>
